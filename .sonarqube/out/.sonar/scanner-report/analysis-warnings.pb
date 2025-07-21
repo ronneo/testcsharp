@@ -1,0 +1,2 @@
+Õ
+ËMulti-Language analysis is enabled. If this was not intended and you have issues such as hitting your LOC limit or analyzing unwanted files, please set "/d:sonar.scanner.scanAll=false" in the begin step.²şÜ¡3

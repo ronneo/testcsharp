@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "dependencies": {
+    "net7.0": {
+      "Snappier": {
+        "type": "Direct",
+        "requested": "[1.1.0, )",
+        "resolved": "1.1.0",
+        "contentHash": "ws78FoXdwY5rTwoSqpdl9HFpgSU4ih0byThG2+s+Bm1VSfyhkQxOdrV0aWQ1R1MptA8EwAcrnn3Mh0GkFSssxA=="
+      }
+    }
+  }
+}

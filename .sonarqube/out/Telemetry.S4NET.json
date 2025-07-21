@@ -1,0 +1,4 @@
+{"dotnetenterprise.s4net.params.sonar_scanner_keepreport.source":"CLI"}
+{"dotnetenterprise.s4net.params.sonar_log_level.source":"CLI"}
+{"dotnetenterprise.s4net.serverInfo.product":"SQ_Server"}
+{"dotnetenterprise.s4net.serverInfo.serverUrl":"localhost"}

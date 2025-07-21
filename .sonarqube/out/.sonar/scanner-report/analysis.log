@@ -1,0 +1,141 @@
+Plugins:
+  - L10n :: Korean Pack 0.1-SNAPSHOT (l10nko)
+  - SonarQube CNES Report 5.0.2 (cnesreport)
+  - Example Plugin to scan for Secrets below a certain string length 0.1 (secret16)
+  - MulePlugin 1.0.6 (mulevalidationsonarqubepluginmule)
+  - L10n :: Japanese Pack 0.1-SNAPSHOT (l10nja)
+Bundled analyzers:
+  - Text Code Quality and Security 2.24.0.6480 (textenterprise)
+  - Clean as You Code 2.4.0.2018 (cayc)
+  - JaCoCo 1.3.0.1538 (jacoco)
+  - IaC Code Quality and Security 1.47.0.15287 (iacenterprise)
+  - IaC Code Quality and Security 1.47.0.15287 (iac)
+Global server settings:
+  - provisioning.github.project.visibility.enabled=true
+  - provisioning.gitlab.enabled=false
+  - sonar.abap.file.suffixes=.abap,.ab4,.flow,.asprog
+  - sonar.apex.file.suffixes=.cls,.trigger
+  - sonar.auth.bitbucket.allowUsersToSignUp=false
+  - sonar.auth.github.allowUsersToSignUp=true
+  - sonar.auth.github.apiUrl=https://api.github.com/
+  - sonar.auth.github.appId=1160845
+  - sonar.auth.github.enabled=true
+  - sonar.auth.github.groupsSync=true
+  - sonar.auth.github.webUrl=https://github.com/
+  - sonar.auth.gitlab.allowUsersToSignUp=true
+  - sonar.auth.gitlab.allowedGroups=demos
+  - sonar.auth.gitlab.enabled=true
+  - sonar.auth.gitlab.groupsSync=false
+  - sonar.auth.gitlab.url=http://localhost:8080
+  - sonar.azureresourcemanager.file.suffixes=.bicep
+  - sonar.c.file.suffixes=.c,.h
+  - sonar.core.id=8B373360-AY_iaR7IlXw9sRcWpxFY
+  - sonar.core.serverBaseURL=http://localhost:9000
+  - sonar.core.startTime=2025-07-09T17:29:29+0800
+  - sonar.cpp.file.suffixes=.cc,.cpp,.cxx,.c++,.hh,.hpp,.hxx,.h++,.ipp,.ixx,.mxx,.cppm,.ccm,.cxxm,.c++m
+  - sonar.cs.file.suffixes=.cs,.razor
+  - sonar.css.file.suffixes=.css,.less,.scss,.sass
+  - sonar.dart.file.suffixes=.dart
+  - sonar.dbcleaner.branchesToKeepWhenInactive=main,master,develop,trunk,release-*
+  - sonar.docker.file.patterns=Dockerfile,*.dockerfile
+  - sonar.earlyAccess.misra.enabled=true
+  - sonar.flex.file.suffixes=as
+  - sonar.forceAuthentication=true
+  - sonar.go.file.suffixes=.go
+  - sonar.html.file.suffixes=.html,.xhtml,.cshtml,.vbhtml,.aspx,.ascx,.rhtml,.erb,.shtm,.shtml,.cmp,.twig,.svelte
+  - sonar.ipynb.file.suffixes=ipynb
+  - sonar.java.file.suffixes=.java,.jav
+  - sonar.java.jvmframeworkconfig.file.patterns=**/src/main/resources/**/*app*.properties,**/src/main/resources/**/*app*.yaml,**/src/main/resources/**/*app*.yml
+  - sonar.javascript.file.suffixes=.js,.jsx,.cjs,.mjs,.vue
+  - sonar.jcl.file.suffixes=.jcl
+  - sonar.json.file.suffixes=.json
+  - sonar.jsp.file.suffixes=.jsp,.jspf,.jspx
+  - sonar.kotlin.file.suffixes=.kt,.kts
+  - sonar.mule.file.suffixes=.xml
+  - sonar.multi-quality-mode.enabled=true
+  - sonar.objc.file.suffixes=.m
+  - sonar.php.file.suffixes=php,php3,php4,php5,phtml,inc
+  - sonar.pli.file.suffixes=.pli
+  - sonar.plsql.file.suffixes=sql,pks,pkb
+  - sonar.plugins.risk.consent=ACCEPTED
+  - sonar.python.file.suffixes=py
+  - sonar.qualityProfiles.allowDisableInheritedRules=true
+  - sonar.rpg.file.suffixes=.rpg,.rpgle,.sqlrpgle,.RPG,.RPGLE,.SQLRPGLE
+  - sonar.ruby.file.suffixes=.rb
+  - sonar.rust.file.suffixes=.rs
+  - sonar.scala.file.suffixes=.scala
+  - sonar.swift.file.suffixes=.swift
+  - sonar.terraform.file.suffixes=.tf
+  - sonar.tsql.file.suffixes=.tsql
+  - sonar.typescript.file.suffixes=.ts,.tsx,.cts,.mts
+  - sonar.vb.file.suffixes=.bas,.frm,.ctl
+  - sonar.vbnet.file.suffixes=.vb
+  - sonar.xml.file.suffixes=.xsd,.xsl,.config
+  - sonar.yaml.file.suffixes=.yaml,.yml
+Project server settings:
+  - sonar.abap.file.suffixes=.abap,.ab4,.flow,.asprog
+  - sonar.apex.file.suffixes=.cls,.trigger
+  - sonar.azureresourcemanager.file.suffixes=.bicep
+  - sonar.c.file.suffixes=.c,.h
+  - sonar.cpp.file.suffixes=.cc,.cpp,.cxx,.c++,.hh,.hpp,.hxx,.h++,.ipp,.ixx,.mxx,.cppm,.ccm,.cxxm,.c++m
+  - sonar.cs.file.suffixes=.cs,.razor
+  - sonar.css.file.suffixes=.css,.less,.scss,.sass
+  - sonar.dart.file.suffixes=.dart
+  - sonar.docker.file.patterns=Dockerfile,*.dockerfile
+  - sonar.flex.file.suffixes=as
+  - sonar.go.file.suffixes=.go
+  - sonar.html.file.suffixes=.html,.xhtml,.cshtml,.vbhtml,.aspx,.ascx,.rhtml,.erb,.shtm,.shtml,.cmp,.twig,.svelte
+  - sonar.ipynb.file.suffixes=ipynb
+  - sonar.java.file.suffixes=.java,.jav
+  - sonar.java.jvmframeworkconfig.file.patterns=**/src/main/resources/**/*app*.properties,**/src/main/resources/**/*app*.yaml,**/src/main/resources/**/*app*.yml
+  - sonar.javascript.file.suffixes=.js,.jsx,.cjs,.mjs,.vue
+  - sonar.jcl.file.suffixes=.jcl
+  - sonar.json.file.suffixes=.json
+  - sonar.jsp.file.suffixes=.jsp,.jspf,.jspx
+  - sonar.kotlin.file.suffixes=.kt,.kts
+  - sonar.mule.file.suffixes=.xml
+  - sonar.objc.file.suffixes=.m
+  - sonar.php.file.suffixes=php,php3,php4,php5,phtml,inc
+  - sonar.pli.file.suffixes=.pli
+  - sonar.plsql.file.suffixes=sql,pks,pkb
+  - sonar.python.file.suffixes=py
+  - sonar.rpg.file.suffixes=.rpg,.rpgle,.sqlrpgle,.RPG,.RPGLE,.SQLRPGLE
+  - sonar.ruby.file.suffixes=.rb
+  - sonar.rust.file.suffixes=.rs
+  - sonar.scala.file.suffixes=.scala
+  - sonar.swift.file.suffixes=.swift
+  - sonar.terraform.file.suffixes=.tf
+  - sonar.tsql.file.suffixes=.tsql
+  - sonar.typescript.file.suffixes=.ts,.tsx,.cts,.mts
+  - sonar.vb.file.suffixes=.bas,.frm,.ctl
+  - sonar.vbnet.file.suffixes=.vb
+  - sonar.xml.file.suffixes=.xsd,.xsl,.config
+  - sonar.yaml.file.suffixes=.yaml,.yml
+Project scanner properties:
+  - sonar.host.url=http://localhost:9000
+  - sonar.log.level=DEBUG
+  - sonar.modules=E47383ED-B11E-B2EB-B587-AC9C1E17D10F
+  - sonar.projectBaseDir=/Users/ronnie.neo/Documents/demos/testcodes/project-examples/dotnet-examples/single-example
+  - sonar.projectKey=Local-CSproj
+  - sonar.pullrequest.cache.basepath=/Users/ronnie.neo/Documents/demos/testcodes/project-examples/dotnet-examples/single-example
+  - sonar.scanAllFiles=true
+  - sonar.scanner.app=ScannerMSBuild
+  - sonar.scanner.appVersion=10.2
+  - sonar.scanner.keepReport=true
+  - sonar.scanner.opts=-Djavax.net.ssl.trustStorePassword=changeit
+  - sonar.sourceEncoding=UTF-8
+  - sonar.token=******
+  - sonar.verbose=true
+  - sonar.visualstudio.enable=false
+  - sonar.working.directory=/Users/ronnie.neo/Documents/demos/testcodes/project-examples/dotnet-examples/single-example/.sonarqube/out/.sonar
+Scanner properties of module: Local-CSproj:Local-CSproj:E47383ED-B11E-B2EB-B587-AC9C1E17D10F
+  - sonar.cs.analyzer.projectOutPaths="/Users/ronnie.neo/Documents/demos/testcodes/project-examples/dotnet-examples/single-example/.sonarqube/out/0"
+  - sonar.cs.roslyn.reportFilePaths="/Users/ronnie.neo/Documents/demos/testcodes/project-examples/dotnet-examples/single-example/.sonarqube/out/0/Issues.json"
+  - sonar.cs.scanner.telemetry="/Users/ronnie.neo/Documents/demos/testcodes/project-examples/dotnet-examples/single-example/.sonarqube/out/0/Telemetry.json"
+  - sonar.moduleKey=Local-CSproj:Local-CSproj:E47383ED-B11E-B2EB-B587-AC9C1E17D10F
+  - sonar.projectKey=Local-CSproj:Local-CSproj:E47383ED-B11E-B2EB-B587-AC9C1E17D10F
+  - sonar.projectName=single-example
+  - sonar.sourceEncoding=utf-8
+  - sonar.sources="/Users/ronnie.neo/Documents/demos/testcodes/project-examples/dotnet-examples/single-example/Program.cs","/Users/ronnie.neo/Documents/demos/testcodes/project-examples/dotnet-examples/single-example/packages.lock.json","/Users/ronnie.neo/Documents/demos/testcodes/project-examples/dotnet-examples/single-example/obj/project.assets.json","/Users/ronnie.neo/Documents/demos/testcodes/project-examples/dotnet-examples/single-example/obj/single-example.csproj.nuget.dgspec.json","/Users/ronnie.neo/Documents/demos/testcodes/project-examples/dotnet-examples/single-example/obj/Debug/net7.0/single-example.sourcelink.json","/Users/ronnie.neo/Documents/demos/testcodes/project-examples/dotnet-examples/single-example/bin/Debug/net7.0/single-example.runtimeconfig.json","/Users/ronnie.neo/Documents/demos/testcodes/project-examples/dotnet-examples/single-example/bin/Debug/net7.0/single-example.deps.json"
+  - sonar.tests=
+  - sonar.working.directory=/Users/ronnie.neo/Documents/demos/testcodes/project-examples/dotnet-examples/single-example/.sonarqube/out/.sonar/mod0

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SonarProjectConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/analyzer/2021/1">
+  <AnalysisConfigPath>/Users/ronnie.neo/Documents/demos/testcodes/project-examples/dotnet-examples/single-example/.sonarqube/conf/SonarQubeAnalysisConfig.xml</AnalysisConfigPath>
+  <ProjectPath>/Users/ronnie.neo/Documents/demos/testcodes/project-examples/dotnet-examples/single-example/single-example.csproj</ProjectPath>
+  <FilesToAnalyzePath>/Users/ronnie.neo/Documents/demos/testcodes/project-examples/dotnet-examples/single-example/.sonarqube/conf/0/FilesToAnalyze.txt</FilesToAnalyzePath>
+  <OutPath>/Users/ronnie.neo/Documents/demos/testcodes/project-examples/dotnet-examples/single-example/.sonarqube/out/0</OutPath>
+  <ProjectType>Product</ProjectType>
+  <TargetFramework>net7.0</TargetFramework>
+</SonarProjectConfig>

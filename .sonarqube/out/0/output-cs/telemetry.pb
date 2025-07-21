@@ -1,0 +1,1 @@
+‡Rq/Users/ronnie.neo/Documents/demos/testcodes/project-examples/dotnet-examples/single-example/single-example.csproj¢net7.0òCSharp11

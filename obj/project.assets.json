@@ -1,0 +1,142 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Snappier/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Snappier.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Snappier.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Snappier/1.1.0": {
+      "sha512": "ws78FoXdwY5rTwoSqpdl9HFpgSU4ih0byThG2+s+Bm1VSfyhkQxOdrV0aWQ1R1MptA8EwAcrnn3Mh0GkFSssxA==",
+      "type": "package",
+      "path": "snappier/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "COPYING.txt",
+        "lib/net6.0/Snappier.dll",
+        "lib/net6.0/Snappier.xml",
+        "lib/net7.0/Snappier.dll",
+        "lib/net7.0/Snappier.xml",
+        "lib/netstandard2.0/Snappier.dll",
+        "lib/netstandard2.0/Snappier.xml",
+        "snappier.1.1.0.nupkg.sha512",
+        "snappier.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "snappier >= 1.1.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/ronnie.neo/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/ronnie.neo/Documents/demos/testcodes/project-examples/dotnet-examples/single-example/single-example.csproj",
+      "projectName": "single-example",
+      "projectPath": "/Users/ronnie.neo/Documents/demos/testcodes/project-examples/dotnet-examples/single-example/single-example.csproj",
+      "packagesPath": "/Users/ronnie.neo/.nuget/packages/",
+      "outputPath": "/Users/ronnie.neo/Documents/demos/testcodes/project-examples/dotnet-examples/single-example/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/ronnie.neo/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreLockProperties": {
+        "restorePackagesWithLockFile": "true"
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "snappier": {
+            "target": "Package",
+            "version": "[1.1.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-arm64",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.301/RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Snappier' 1.1.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-838x-pcvx-6p5w",
+      "libraryId": "Snappier",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}

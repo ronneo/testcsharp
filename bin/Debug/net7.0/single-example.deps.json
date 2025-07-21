@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "single-example/1.0.0": {
+        "dependencies": {
+          "Snappier": "1.1.0"
+        },
+        "runtime": {
+          "single-example.dll": {}
+        }
+      },
+      "Snappier/1.1.0": {
+        "runtime": {
+          "lib/net7.0/Snappier.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "single-example/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Snappier/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ws78FoXdwY5rTwoSqpdl9HFpgSU4ih0byThG2+s+Bm1VSfyhkQxOdrV0aWQ1R1MptA8EwAcrnn3Mh0GkFSssxA==",
+      "path": "snappier/1.1.0",
+      "hashPath": "snappier.1.1.0.nupkg.sha512"
+    }
+  }
+}

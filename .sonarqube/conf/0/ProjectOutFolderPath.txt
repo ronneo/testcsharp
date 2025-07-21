@@ -1,0 +1,1 @@
+/Users/ronnie.neo/Documents/demos/testcodes/project-examples/dotnet-examples/single-example/.sonarqube/out/0

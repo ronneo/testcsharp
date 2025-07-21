@@ -1,0 +1,6 @@
+projectKey=Local-CSproj
+serverUrl=http://localhost:9000
+serverVersion=2025.3.1.109879
+dashboardUrl=http://localhost:9000/dashboard?id=Local-CSproj
+ceTaskId=febc4b30-b91a-4642-8d10-3d27a996ae53
+ceTaskUrl=http://localhost:9000/api/ce/task?id=febc4b30-b91a-4642-8d10-3d27a996ae53

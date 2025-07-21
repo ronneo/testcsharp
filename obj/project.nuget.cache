@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "YGi3YcwoWjg=",
+  "success": true,
+  "projectFilePath": "/Users/ronnie.neo/Documents/demos/testcodes/project-examples/dotnet-examples/single-example/single-example.csproj",
+  "expectedPackageFiles": [
+    "/Users/ronnie.neo/.nuget/packages/snappier/1.1.0/snappier.1.1.0.nupkg.sha512",
+    "/Users/ronnie.neo/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "/Users/ronnie.neo/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
+    "/Users/ronnie.neo/.nuget/packages/microsoft.netcore.app.host.osx-arm64/7.0.20/microsoft.netcore.app.host.osx-arm64.7.0.20.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Snappier' 1.1.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-838x-pcvx-6p5w",
+      "projectPath": "/Users/ronnie.neo/Documents/demos/testcodes/project-examples/dotnet-examples/single-example/single-example.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/ronnie.neo/Documents/demos/testcodes/project-examples/dotnet-examples/single-example/single-example.csproj",
+      "libraryId": "Snappier",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}
