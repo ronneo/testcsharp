@@ -37,7 +37,7 @@ jobs:
       - name: Install SonarQube scanner
         shell: powershell
         run: |
-          dotnet tool install dotnet-sonarscanner
+          dotnet tool install --global dotnet-sonarscanner
       - name: Build and analyze
         shell: powershell
         run: |
